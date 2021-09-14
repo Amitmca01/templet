@@ -1,0 +1,229 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+section.main-part{
+	background: url(../images/header-bg.jpg) no-repeat center center;
+	background-size:cover;
+	min-height:800px;
+}
+.container{
+	width:1200px;
+	margin:0 auto;
+}
+header{
+	width:100%;
+	padding:39px 0;
+	float:left;
+}
+header a{
+	float:left;
+}
+
+button[type="button"].login-btn{
+	font-family: 'Raleway', sans-serif;
+	font-size: 19px;
+	color: #ffffff;
+	font-weight: 900;
+	background-color: #30aabc;
+	background-image: url(../images/lock-icon.png);
+	background-position: 92% center;
+	background-repeat: no-repeat;
+	padding: 13px 48px 13px 18px;
+	float: right;
+	border: none;
+	text-transform: uppercase;
+	transition: all ease-in 0.3s;
+}
+.banner-sec{
+	width:100%;
+	float:left;
+}
+.banner-sec .left-part{
+	width:60%;
+	float:left;
+	margin: 16% 0 0 0;	
+}
+.banner-sec .left-part h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	font-weight:900;
+	color:#ffffff;
+	position:relative;
+	text-transform: uppercase;
+}
+.banner-sec .left-part h1::before{
+	content: '';
+	position: absolute;
+	margin: 0px;
+	background: #fff;
+	height: 5px;
+	width: 140px;
+	left: 0px;
+	top: -46px;
+}
+.banner-sec .left-part p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	color: #ffffff;
+	width: 523px;
+	margin: 2% 0 0 0;
+}
+.banner-sec .left-part a.start-btn{
+	background: #30aabc;
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: 900;
+	padding: 20px 55px;
+	text-transform: uppercase;
+	text-decoration: none;
+	float: left;
+	margin: 4% 0 0 0;
+}
+.banner-sec .right-part{
+	width:40%;
+	float:right;
+	padding-top: 5%;
+}
+.banner-sec .right-part img{
+	width:100%;
+}
+.clearfix{
+	clear:both;
+}
+section.order-div{
+	background: #f5f5f5;
+	width:100%;
+	padding:200px 0;float:left;
+}
+section.order-div .left-panel{
+	width:50%;
+	float:left;
+}
+section.order-div .left-panel h2{
+	font-size: 62px;
+	color:#1c8a93;
+	font-weight: 900;
+	text-transform: uppercase;
+	position:relative;
+	font-family: 'Raleway', sans-serif;
+}
+section.order-div .left-panel h2::before{
+	content: '';
+	position: absolute;
+	margin: 0px;
+	background: #1c8a93;
+	height: 5px;
+	width: 140px;
+	left: 0px;
+	top: -46px;	
+}
+section.order-div .left-panel p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	color: #454343;
+	width: 523px;
+	margin: 2% 0 0 0;	
+}
+section.order-div .right-panel{
+	width:50%;
+	float:left;	
+}
+section.order-div .right-panel ul{
+	margin:0px;
+	padding:0px;
+	width:62%;
+	float:right;
+}
+section.order-div .right-panel ul li{
+	width:100%;
+	float:left;
+	list-style:none;
+	margin: 0 0 20px 0;
+}
+section.order-div .right-panel ul li a{
+	font-family: 'Raleway', sans-serif;
+	font-size:14px;
+	color:#ffffff;
+	margin:0px;
+	padding: 27px 2px;
+	text-transform: uppercase;
+	background:#1c8a93  url(../images/arrow.png) no-repeat 93% center;
+	float:left;
+	text-decoration:none;
+	width: 100%;
+	transition:all ease-in 0.3s;
+	font-weight: bold;text-align: center;
+}
+section.order-div .right-panel ul li a:hover{
+	background:#04373e url(../images/arrow.png) no-repeat 93% center;
+}
+.content-area{
+	width:100%;
+	float:left;
+	padding:52px 0;
+	box-shadow: 0px 1px 4px #ccc;
+}
+.content-area h3{
+	font-size:12px;
+	font-family: 'Raleway', sans-serif;
+	color:#454343;
+	margin:0px;
+	font-weight: 500;
+}
+.content-area p{
+	font-size: 11px;
+	font-family: 'Raleway', sans-serif;
+	color: #454343;
+	margin: 6px 0 0 0;
+}
+.arrow-devide{
+	width: 58px;
+	height: 50px;
+	border-radius: 50px;
+	position: absolute;
+	margin-left: 40%;
+	margin-top: 56%;	
+	z-index: 999;
+}
+footer{
+	width:100%;
+	float:left;
+	padding: 20px 0;
+}
+footer .left-1{
+	width:70%;
+	float:left;
+	padding: 14px 0;
+}
+footer .left-1 ul{
+	margin:0px;
+	padding:0px;
+}
+footer .left-1 ul li{
+	list-style:none;
+	float:left;
+	margin: 0 23px 0 0;
+}
+footer .left-1 ul li:last-child{
+	margin-right:0px;
+}
+footer .left-1 ul li a{
+	font-family: 'Raleway', sans-serif;
+	color: #454343;
+	font-size: 15px;
+	float: left;
+	margin: 0px;
+	font-weight: 700;
+	text-decoration: none;
+}
+footer .right-1{
+	width:30%;
+	float:right;
+}
+footer .right-1 img{
+	float:right;
+}
